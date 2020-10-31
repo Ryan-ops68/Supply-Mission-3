@@ -1,0 +1,50 @@
+class Dubstin
+var package = 0;
+var helicopter = 0;
+var box = 0;
+var package = createSprite(200,200,10,10)
+var helicopter = createSprite(200,300,50,50)
+var box = createSprite(100,20)
+function setup(){
+var canvas = createCanvas(1200,400);
+
+}
+Matter.Body.setStaic(body,isStatic)
+Matter.Body.setStatic(, false);
+
+packageSprite.x= packageBody.position.x
+packageSprite.y= packageBody.position.y
+backround("blue")
+helicopter.destroy = package.destroy
+package.destroy = helicopter.destroy
+
+
+
+Matter.Body.setStatic(< box >,false);
+box.isStatic = ("red")
+
+
+helicopter.addImage(helicopter.png)
+package.addImage(package.png)
+box.addImage(box.png)
+
+
+funcction keyPressed() {
+    if (keyCode === UP_ARROW){
+
+        Matter.Body.applyForce(paperObject.body,paperObject.body.position,(x=85,y:-85));
+    }
+}
+
+Matter.Bodies.circle(x, y, radius,[options], [maxSides]) + Body
+
+
+
+var options ={
+isStatic:false,
+restitution:0.3,
+friction:0.5,
+density:1.2
+
+
+}
